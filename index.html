@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Catálogo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Meu Catálogo</h1>
+      <div class="carrinho-btn" id="abrir-carrinho">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="contador-carrinho">0</span>
+      </div>
+    </header>
+
+    <div class="filtros-container">
+      <button class="filtro-btn active" data-categoria="todos">Todos</button>
+      <button class="filtro-btn" data-categoria="roupas">Roupas</button>
+      <button class="filtro-btn" data-categoria="calcados">Calçados</button>
+      <button class="filtro-btn" data-categoria="acessorios">Acessórios</button>
+    </div>
+
+    <main>
+      <section class="produtos">
+        <!-- Produtos serão inseridos pelo JavaScript -->
+      </section>
+    </main>
+
+    <!-- Carrinho Sidebar -->
+    <div class="carrinho-sidebar" id="carrinho-sidebar">
+      <div class="carrinho-header">
+        <h2>Seu Carrinho</h2>
+        <button id="fechar-carrinho"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="carrinho-itens" id="carrinho-itens">
+        <!-- Itens do carrinho serão inseridos aqui -->
+      </div>
+      <div class="carrinho-pagamento">
+        <h3>Forma de Pagamento</h3>
+        <div class="opcoes-pagamento">
+          <label>
+            <input type="radio" name="pagamento" value="Pix" checked />
+            <span>Pix</span>
+          </label>
+          <label>
+            <input type="radio" name="pagamento" value="Cartão de Crédito" />
+            <span>Cartão de Crédito</span>
+          </label>
+          <label>
+            <input type="radio" name="pagamento" value="Cartão de Débito" />
+            <span>Cartão de Débito</span>
+          </label>
+          <label>
+            <input type="radio" name="pagamento" value="Dinheiro" />
+            <span>Dinheiro</span>
+          </label>
+        </div>
+      </div>
+      <div class="carrinho-total">
+        <p>Total: <span id="carrinho-total">R$ 0,00</span></p>
+        <button id="enviar-whatsapp" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> Enviar Pedido
+        </button>
+      </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
