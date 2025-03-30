@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 1,
       nome: "Aromatizador de Ambiente Bambu",
       preco: 45.0,
-      imagem: "Bambu.png",
+      imagem: "img/Difusor de Varetas/Bambu.png",
       descricao: "Aromatizador de ambiente com fragrância de bambu",
       categoria: "aromatizadores de ambiente",
     },
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 2,
       nome: "Aromatizador de Ambiente de Encantos da Terra",
       preco: 45.0,
-      imagem: "Encantos_da_terra.png",
+      imagem: "img/Difusor de Varetas/Encantos_da_terra.png",
       descricao: "Aromatizador de ambiente com fragrância de Encantos da Terra",
       categoria: "aromatizadores de ambiente",
     },
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 3,
       nome: "Aromatizador de Ambiente de Alecrim",
       preco: 45.0,
-      imagem: "Alecrim.jpeg",
+      imagem: "img/Difusor de Varetas/Alecrim.jpeg",
       descricao: "Aromatizador de ambiente com fragrância de Alecrim",
       categoria: "aromatizadores de ambiente",
     },
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 4,
       nome: "Aromatizador de Ambiente de Verbera",
       preco: 45.0,
-      imagem: "Verbera.jpeg",
+      imagem: "img/Difusor de Varetas/Verbera.jpeg",
       descricao: "Aromatizador de ambiente com fragrância de Verbera",
       categoria: "aromatizadores de ambiente",
     },
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 5,
       nome: "Aromatizador em Spray de Alecrim",
       preco: 35.0,
-      imagem: "Alecrim.jpeg",
+      imagem: "img/Home Spray/Alecrim.jpeg",
       descricao: "Aromatizador em spray com fragrância de Alecrim",
       categoria: "aromatizadores em spray",
     },
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 6,
       nome: "Aromatizador em Spray de Bambu",
       preco: 35.0,
-      imagem: "Bambu.jpeg",
+      imagem: "img/Home Spray/Bambu.jpeg",
       descricao: "Aromatizador em spray com fragrância de Bambu",
       categoria: "aromatizadores em spray",
     },
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 7,
       nome: "Aromatizador em Spray de Cascas e Folhas",
       preco: 35.0,
-      imagem: "Cascas_e_folhas.jpeg",
+      imagem: "img/Home Spray/Cascas_e_folhas.jpeg",
       descricao: "Aromatizador em spray com fragrância de Cascas e Folhas",
       categoria: "aromatizadores em spray",
     },
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 8,
       nome: "Aromatizador em Spray de Cereja e Avelã",
       preco: 35.0,
-      imagem: "Cereja_e_avelã.jpeg",
+      imagem: "img/Home Spray/Cereja_e_avelã.jpeg",
       descricao: "Aromatizador em spray com fragrância de Cereja e Avelã",
       categoria: "aromatizadores em spray",
     },
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 9,
       nome: "Body Splash de Cereja e Avelã",
       preco: 35.0,
-      imagem: "Cereja_e_avela.jpeg",
+      imagem: "img/BodySplash_100ml/Cereja_e_avela.jpeg",
       descricao: "Body splash com fragrância de Cereja e Avelã",
       categoria: "body splashes",
     },
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 10,
       nome: "Body Splash de Flor de Cerejeira",
       preco: 35.0,
-      imagem: "Flor_de_cerejeira.jpeg",
+      imagem: "img/BodySplash_100ml/Flor_de_cerejeira.jpeg",
       descricao: "Body splash com fragrância de Cereja e Avelã",
       categoria: "body splashes",
     },
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 11,
       nome: "Body Splash de Maracujá",
       preco: 35.0,
-      imagem: "Maracuja.jpeg",
+      imagem: "img/BodySplash_100ml/Maracuja.jpeg",
       descricao: "Body splash com fragrância de Maracujá",
       categoria: "body splashes",
     },
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 12,
       nome: "Body Splash de Melancia",
       preco: 35.0,
-      imagem: "Melancia.jpeg",
+      imagem: "img/BodySplash_100ml/Melacia.jpeg",
       descricao: "Body splash com fragrância de Melancia",
       categoria: "body splashes",
     },
@@ -101,202 +101,26 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 13,
       nome: "Creme Hidratante Corporal de Cereja e Avelã",
       preco: 40.0,
-      imagem: "Avelã_e_cereja_150ml.jpeg",
+      imagem: "img/Cremes/Avelã_e_cereja",
       descricao: "Creme hidratante para o corpo de Cereja e Avelã",
       categoria: "cremes",
     },
-    {
-      id: 14,
-      nome: "Creme Hidratante Corporal de Cereja e Avelã",
-      preco: 18.0,
-      imagem: "Avelã_e_cereja_60ml.jpeg",
-      descricao: "Creme hidratante para o corpo de Cereja e Avelã",
-      categoria: "cremes",
-    },
-    {
-      id: 15,
-      nome: "Creme Hidratante Corporal de Flor de Cerejeira",
-      preco: 40.0,
-      imagem: "Flor_de_cerejeira_150ml.jpeg",
-      descricao: "Creme hidratante para o corpo de Flor de Cerejeira",
-      categoria: "cremes",
-    },
-    {
-      id: 16,
-      nome: "Creme Hidratante Corporal de Flor de Cerejeira",
-      preco: 18.0,
-      imagem: "Flor_de_cerejeira_60ml.jpeg",
-      descricao: "Creme hidratante para o corpo de Flor de Cerejeira",
-      categoria: "cremes",
-    },
-    {
-      id: 17,
-      nome: "Creme Hidratante Corporal de Melancia",
-      preco: 18.0,
-      imagem: "Melancia_60ml.jpeg",
-      descricao: "Creme hidratante para o corpo de Melancia",
-      categoria: "cremes",
-    },
-    {
-      id: 18,
-      nome: "Creme Hidratante Corporal de Melancia",
-      preco: 18.0,
-      imagem: "Melancia_150ml.jpeg",
-      descricao: "Creme hidratante para o corpo de Melancia",
-      categoria: "cremes",
-    },
-    {
-      id: 19,
-      nome: "Sabonete Líquido de Chocolate",
-      preco: 25.0,
-      imagem: "Chocolate.jpeg",
-      descricao: "Sabonete líquido suave para peles sensíveis",
-      categoria: "sabonetes",
-    },
-    {
-      id: 20,
-      nome: "Sabonete Líquido de Limão",
-      preco: 25.0,
-      imagem: "Limao.jpeg",
-      descricao: "Sabonete líquido suave para peles sensíveis",
-      categoria: "sabonetes",
-    },
-    {
-      id: 21,
-      nome: "Sabonete Líquido de Morango",
-      preco: 25.0,
-      imagem: "Morango.jpeg",
-      descricao: "Sabonete líquido suave para peles sensíveis",
-      categoria: "sabonetes",
-    },
-    {
-      id: 22,
-      nome: "Sabonete de Açafrão e Mel",
-      preco: 18.0,
-      imagem: "Acafrao_mel-18,00.jpeg",
-      descricao: "Sabonete natural com açafrão e mel",
-      categoria: "sabonetes",
-    },
-    {
-      id: 23,
-      nome: "Sabonete de Argila Verde",
-      preco: 15.0,
-      imagem: "Argila_verde-15,00.jpeg",
-      descricao: "Sabonete com argila verde para pele oleosa",
-      categoria: "sabonetes",
-    },
-    {
-      id: 24,
-      nome: "Sabonete de Arruda, Alecrim e Sal Grosso",
-      preco: 15.0,
-      imagem: "Arruda_alecrim_sal_grosso.jpeg",
-      descricao: "Sabonete com arruda, alecrim e sal grosso",
-      categoria: "sabonetes",
-    },
-    {
-      id: 25,
-      nome: "Sabonete de Babosa e Mel",
-      preco: 18.0,
-      imagem: "Babosa_mel-18,00.jpeg",
-      descricao: "Sabonete hidratante com babosa e mel",
-      categoria: "sabonetes",
-    },
-    {
-      id: 26,
-      nome: "Sabonete de Bergamota",
-      preco: 18.0,
-      imagem: "Bergamota.jpeg",
-      descricao: "Sabonete com fragrância de bergamota",
-      categoria: "sabonetes",
-    },
-    {
-      id: 27,
-      nome: "Sabonete de Carvão Ativado",
-      preco: 15.0,
-      imagem: "Carvao_ativado-15,00.jpeg",
-      descricao: "Sabonete detox com carvão ativado",
-      categoria: "sabonetes",
-    },
-    {
-      id: 28,
-      nome: "Sabonete de Cereja e Avelã",
-      preco: 18.0,
-      imagem: "Cereja_Avela-18,00.jpeg",
-      descricao: "Sabonete com fragrância de cereja e avelã",
-      categoria: "sabonetes",
-    },
-    {
-      id: 29,
-      nome: "Sabonete de Cereja e Avelã 02",
-      preco: 18.0,
-      imagem: "Cereja_Avela02-18,00.jpeg",
-      descricao: "Sabonete com fragrância de cereja e avelã - versão 2",
-      categoria: "sabonetes",
-    },
-    {
-      id: 30,
-      nome: "Sabonete de Cravo e Canela",
-      preco: 18.0,
-      imagem: "Cravo_canela.jpeg",
-      descricao: "Sabonete com fragrância de cravo e canela",
-      categoria: "sabonetes",
-    },
-    {
-      id: 31,
-      nome: "Sabonete de Dolomita",
-      preco: 15.0,
-      imagem: "Dolomita_15,00.jpeg",
-      descricao: "Sabonete mineral com dolomita",
-      categoria: "sabonetes",
-    },
-    {
-      id: 32,
-      nome: "Sabonete de Flor de Laranjeira",
-      preco: 18.0,
-      imagem: "Flor_de_laranjeira-18,00.jpeg",
-      descricao: "Sabonete com fragrância de flor de laranjeira",
-      categoria: "sabonetes",
-    },
-    {
-      id: 33,
-      nome: "Sabonete de Flor de Laranjeira 02",
-      preco: 18.0,
-      imagem: "Flor_de_laranjeira02-18,00.jpeg",
-      descricao: "Sabonete com fragrância de flor de laranjeira - versão 2",
-      categoria: "sabonetes",
-    },
-    {
-      id: 34,
-      nome: "Sabonete de Maracujá",
-      preco: 18.0,
-      imagem: "Maracuja-18,00.jpeg",
-      descricao: "Sabonete calmante com maracujá",
-      categoria: "sabonetes",
-    },
-    {
-      id: 35,
-      nome: "Sabonete Olho Grego",
-      preco: 18.0,
-      imagem: "Olho_Grego-18,00.jpeg",
-      descricao: "Sabonete com propriedades de proteção",
-      categoria: "sabonetes",
-    },
-    {
-      id: 36,
-      nome: "Aromatizador de Carro Fresh de Alecrim",
-      preco: 15.0,
-      imagem: "Alecrim.jpeg",
-      descricao: "Aromatizador para carro com fragrância fresh de alecrim",
-      categoria: "aromatizadores de carro",
-    },
-    {
-      id: 37,
-      nome: "Aromatizador de Carro Fresh de Lavanda",
-      preco: 15.0,
-      imagem: "lavanda.jpeg",
-      descricao: "Aromatizador para carro com fragrância fresh de lavanda",
-      categoria: "aromatizadores de carro",
-    },
+    // {
+    //     id: 5,
+    //     nome: "Sabonete Líquido Neutro",
+    //     preco: 29.90,
+    //     imagem: "https://via.placeholder.com/300/844a4f/ffffff?text=Sabonete",
+    //     descricao: "Sabonete líquido suave para peles sensíveis",
+    //     categoria: "sabonetes"
+    // },
+    // {
+    //     id: 6,
+    //     nome: "Aromatizador de Carro Fresh",
+    //     preco: 34.90,
+    //     imagem: "https://via.placeholder.com/300/844a4f/ffffff?text=Carro",
+    //     descricao: "Aromatizador para carro com fragrância fresh",
+    //     categoria: "aromatizadores de carro"
+    // }
   ];
 
   // Elementos DOM
@@ -356,21 +180,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     produtosFiltrados.forEach((produto) => {
       const produtoHTML = `
-                    <div class="produto" data-id="${
-                      produto.id
-                    }" data-categoria="${produto.categoria}">
-                        <img src="${produto.imagem}" alt="${produto.nome}">
-                        <div class="produto-info">
-                            <h3>${produto.nome}</h3>
-                            <p class="produto-preco">R$ ${produto.preco.toFixed(
-                              2
-                            )}</p>
-                            <button class="adicionar-carrinho" data-id="${
-                              produto.id
-                            }">Adicionar ao Carrinho</button>
-                        </div>
+                <div class="produto" data-id="${produto.id}" data-categoria="${
+        produto.categoria
+      }">
+                    <img src="${produto.imagem}" alt="${produto.nome}">
+                    <div class="produto-info">
+                        <h3>${produto.nome}</h3>
+                        <p class="produto-preco">R$ ${produto.preco.toFixed(
+                          2
+                        )}</p>
+                        <button class="adicionar-carrinho" data-id="${
+                          produto.id
+                        }">Adicionar ao Carrinho</button>
                     </div>
-                `;
+                </div>
+            `;
       produtosContainer.innerHTML += produtoHTML;
     });
   }
@@ -441,23 +265,19 @@ document.addEventListener("DOMContentLoaded", function () {
       total += itemTotal;
 
       const itemHTML = `
-                    <div class="carrinho-item">
-                        <img src="${item.imagem}" alt="${item.nome}">
-                        <div class="carrinho-item-info">
-                            <h4>${item.nome}</h4>
-                            <p>R$ ${item.preco.toFixed(2)}</p>
-                        </div>
-                        <div class="carrinho-item-quantidade">
-                            <button class="diminuir" data-id="${
-                              item.id
-                            }">-</button>
-                            <span>${item.quantidade}</span>
-                            <button class="aumentar" data-id="${
-                              item.id
-                            }">+</button>
-                        </div>
+                <div class="carrinho-item">
+                    <img src="${item.imagem}" alt="${item.nome}">
+                    <div class="carrinho-item-info">
+                        <h4>${item.nome}</h4>
+                        <p>R$ ${item.preco.toFixed(2)}</p>
                     </div>
-                `;
+                    <div class="carrinho-item-quantidade">
+                        <button class="diminuir" data-id="${item.id}">-</button>
+                        <span>${item.quantidade}</span>
+                        <button class="aumentar" data-id="${item.id}">+</button>
+                    </div>
+                </div>
+            `;
       carrinhoItensContainer.innerHTML += itemHTML;
     });
 
@@ -477,7 +297,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    const numeroWhatsApp = "555499370787"; // Substitua pelo seu número
+    const numeroWhatsApp = "SEU_NUMERO_AQUI"; // Substitua pelo seu número
     const formaPagamento = document.querySelector(
       'input[name="pagamento"]:checked'
     ).value;
