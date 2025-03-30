@@ -197,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    const numeroWhatsApp = "SEU_NUMERO_AQUI"; // Substitua pelo seu número
+    const numeroWhatsApp = "5554997021990"; // Substitua pelo seu número
     const formaPagamento = document.querySelector(
       'input[name="pagamento"]:checked'
     ).value;
