@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Catálogo</title>
+    <title>Catálogo de Produtos</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -16,7 +16,26 @@
   </head>
   <body>
     <header>
-      <h1>Meu Catálogo</h1>
+      <h1>Catálogo de Produtos</h1>
+
+      <div class="search-container">
+        <input
+          type="text"
+          id="barra-pesquisa"
+          placeholder="Pesquisar produtos..."
+          autocomplete="off"
+        />
+        <div class="suggestions" id="suggestions">
+          <div class="suggestion-item">aromatizadores de ambiente</div>
+          <div class="suggestion-item">aromatizadores em spray</div>
+          <div class="suggestion-item">body splashes</div>
+          <div class="suggestion-item">cremes</div>
+          <div class="suggestion-item">sabonetes</div>
+          <div class="suggestion-item">aromatizadores de carro</div>
+        </div>
+        <button class="search-btn"><i class="fas fa-search"></i></button>
+      </div>
+
       <div class="carrinho-btn" id="abrir-carrinho">
         <i class="fas fa-shopping-cart"></i>
         <span id="contador-carrinho">0</span>
@@ -25,9 +44,11 @@
 
     <div class="filtros-container">
       <button class="filtro-btn active" data-categoria="todos">Todos</button>
-      <button class="filtro-btn" data-categoria="roupas">Roupas</button>
-      <button class="filtro-btn" data-categoria="calcados">Calçados</button>
-      <button class="filtro-btn" data-categoria="acessorios">Acessórios</button>
+      <button class="filtro-btn" data-categoria="aromatizadores">
+        Aromatizadores
+      </button>
+      <button class="filtro-btn" data-categoria="cosmeticos">Cosméticos</button>
+      <button class="filtro-btn" data-categoria="automotivo">Automotivo</button>
     </div>
 
     <main>

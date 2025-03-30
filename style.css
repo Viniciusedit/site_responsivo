@@ -23,9 +23,78 @@ header {
   color: var(--cor-texto-claro);
   padding: 15px 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+  position: relative;
+  z-index: 101;
+}
+
+/* Barra de pesquisa */
+.search-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  order: 1;
+  z-index: 102;
+}
+
+#barra-pesquisa {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid var(--cor-secundaria);
+  border-radius: 25px 0 0 25px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-btn {
+  padding: 0 15px;
+  background-color: var(--cor-primaria);
+  color: white;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+  background-color: var(--cor-secundaria);
+}
+
+.suggestions {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 0 0 5px 5px;
+  z-index: 100;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: var(--cor-primaria);
+  transition: background-color 0.2s;
+}
+
+.suggestion-item:hover {
+  background-color: var(--cor-clara);
+}
+
+#barra-pesquisa:focus + .suggestions,
+.suggestions:hover {
+  display: block;
 }
 
 .carrinho-btn {
@@ -39,6 +108,7 @@ header {
   cursor: pointer;
   font-weight: 600;
   transition: all 0.3s ease;
+  order: 2;
 }
 
 .carrinho-btn:hover {
@@ -46,6 +116,7 @@ header {
   color: var(--cor-texto-claro);
 }
 
+/* Filtros */
 .filtros-container {
   display: flex;
   justify-content: center;
@@ -76,6 +147,7 @@ header {
   color: var(--cor-texto-claro);
 }
 
+/* Produtos */
 .produtos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -135,6 +207,15 @@ header {
   background-color: var(--cor-secundaria);
 }
 
+.sem-resultados {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: var(--cor-primaria);
+  font-size: 1.2rem;
+}
+
+/* Carrinho Sidebar */
 .carrinho-sidebar {
   position: fixed;
   top: 0;
@@ -317,6 +398,25 @@ header {
 }
 
 @media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .search-container {
+    order: 1;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    order: 2;
+  }
+
+  .carrinho-btn {
+    order: 3;
+    margin-top: 10px;
+  }
+
   .carrinho-sidebar {
     width: 90%;
     right: -90%;
